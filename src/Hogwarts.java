@@ -17,27 +17,11 @@ public class Hogwarts {
         Ravenclaw padmaPatil = new Ravenclaw(85, 82, 80, 88, 80, 72);
         Ravenclaw marcusBelby = new Ravenclaw(80, 75, 78, 85, 75, 68);
 
-        // Вывод описания студентов
-        harryPotter.displayDescription();
-        System.out.println();
-        dracoMalfoy.displayDescription();
-        System.out.println();
-        zachariasSmith.displayDescription();
-        System.out.println();
-        choChang.displayDescription();
-        System.out.println();
+        harryPotter.compareStudents(hermioneGranger);
 
-        // Сравнение учеников одного факультета
-        harryPotter.compareGryffindorStudents(ronWeasley);
-        System.out.println();
-        dracoMalfoy.compareSlytherinStudents(gregoryGoyle);
-        System.out.println();
         zachariasSmith.compareHufflepuffStudents(justinFinchFletchley);
         System.out.println();
         choChang.compareRavenclawStudents(padmaPatil);
     }
-
-
-
 
 }

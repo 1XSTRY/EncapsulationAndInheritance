@@ -1,8 +1,8 @@
- class Ravenclaw  extends HogwartsStudent{
-     int intelligence;
-     int wisdom;
-     int wit;
-     int creativity;
+ public class Ravenclaw  extends HogwartsStudent{
+     private int intelligence;
+     private int wisdom;
+     private int wit;
+     private int creativity;
 
      Ravenclaw(int intelligence, int wisdom, int wit, int creativity, int magicPower, int transgressionDistance) {
          super(magicPower, transgressionDistance);

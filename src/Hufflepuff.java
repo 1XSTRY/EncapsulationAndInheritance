@@ -1,7 +1,7 @@
-class Hufflepuff extends HogwartsStudent {
-    int diligence;
-    int loyalty;
-    int honesty;
+public class Hufflepuff extends HogwartsStudent {
+    private int diligence;
+    private int loyalty;
+    private int honesty;
 
     Hufflepuff(int diligence, int loyalty, int honesty, int magicPower, int transgressionDistance) {
         super(magicPower, transgressionDistance);
